@@ -154,6 +154,18 @@ print(type(y))
 print(x+y)
 
 
+# Inputs in Python
+
+name = input("Enter name : ")
+age = input("Enter your age : ")
+marks = input("Enter your marks")
+
+print(type(name), name)
+print(type(age), age)
+print(type(marks), marks)
+
+
+
 
 
 
