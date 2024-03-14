@@ -24,5 +24,46 @@ print(len(str1))
 print(len(str2))
 print(len(str3))
 
+# the empty space is also part of length
+str12 = str1 + " " + str2
+print(len(str12))
+
+
+
+# Indexing 
+# we just access all indexes but we can't manupulate them means this ch1 = "@"
+str = "Apna Collage"
+ch1 = str[1]
+ch4 = str[4]
+ch5 = str[5]
+ch6 = str[6]
+print(ch1,ch4,ch5,ch6)
+
+# Slicing
+# Accessing part of a string
+#str[starting_idx: ending_idx] ending index is not included
+
+str = "Apna Collage"
+print(str[1:6])
+print(str[0:4], str[ :4]) #both are sames
+print(str[1: ] , str[1: len(str)]) #both are sames
+print(str[4: ] , str[4: len(str)]) #both are sames
+
+
+# Negative indexing in only python
+
+str = "Apple"
+print(str[-5: -1])
+
+
+
+
+
+
+
+
+
+
+
 
 
