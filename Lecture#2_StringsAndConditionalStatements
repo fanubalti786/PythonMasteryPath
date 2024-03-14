@@ -1,0 +1,28 @@
+# Strings
+# Strings are data types that stores a squance of characters.
+
+str1 = "this is a string"
+str2 = 'this is also string'
+str3 = '''this is also string'''
+
+print("python is awsome \nand good")
+print(str1)
+print(str2)
+print(str3)
+
+# Basic operation
+
+# Concatination
+str = "hello" + "world"
+print(str)
+
+str12 = str1 + str2
+print(str12)
+
+#length of str
+print(len(str1))
+print(len(str2))
+print(len(str3))
+
+
+

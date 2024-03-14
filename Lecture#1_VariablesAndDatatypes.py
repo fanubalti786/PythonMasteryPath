@@ -1,189 +1,197 @@
-# # Print Function
-# print("hello world")
-# print("how are you")
-# print("Apna College")
+# Print Function
+print("hello world")
+print("how are you")
+print("Apna College")
 
-# print("owsom", "toturial")
+print("owsom", "toturial")
 
-# print (33+99)
-# print(44/3)
+print (33+99)
+print(44/3)
 
-# # Variables
-# name = "irfan"
-# age = 22
-# price = 22.3
+# Variables
+name = "irfan"
+age = 22
+price = 22.3
 
-# print(age , "its a integer number") # valid
+print(age , "its a integer number") # valid
 
-# print(name + "its a integer number") #valid
+print(name + "its a integer number") #valid
 
-# # print(price + "its a integer number")#not valid
-
-
-# print(type(age))
-# print(type(name))
-# print(type(price))
-
-# old = None
-
-# print(type(old))
-
-# # Comments
-# # single line comment
-# """multi 
-# line 
-# comment"""
-
-# #Arithmatic operators(+ - * / % **)
-# a = 5
-# b = 2
-# print("a = ", a , "& b = ", b)
-# print("a + b = ", a+b)
-# print("a + b = ", a-b)
-# print("a * b = ", a*b)
-# print("a / b = ", a/b)
-# print("a % b = ", a%b)
-# print("a ** b = ", a ** b)
+# print(price + "its a integer number")#not valid
 
 
-# # # unary operators(incremet and decremetn with post and pre)
-# # a = a + 1
-# # print(a)#6
+print(type(age))
+print(type(name))
+print(type(price))
 
-# # #print(a++)# the print value of a is 5 becuase its a post increment 
-# # a = a - 1
-# # print(a)#4
+old = None
 
-# # a = ++a
-# # print(a)# the print value of a is 6 becuase its a pre increment
+print(type(old))
 
-# # #a = a--
-# # print(a)# the print value of a is 5 becuase its a post degrement
+# Comments
+# single line comment
+"""multi 
+line 
+comment"""
 
-# # a = --a
-# # print(a)# the print value of a is 4 becuase its a pre degrement
-
-# # a = a * 1
-# # print(a)# 5
-
-# # a = a / 5
-# # print(a)# 1
-
-# # a = a % 2
-# # print(a)#
-
-
-# # Assingment Operators(= += -= *= %= **=)
-# a += 1# a = a + 1; its a same one
-# print(a)
-
-# a -= 1# a = a - 1; its a same one
-# print(a) 
-
-# a *= 1# a = a * 1; its a same one
-# print(a) 
-
-# a /= 1# a = a / 1; its a same one
-# print(a)
-
-# a %= 1# a = a % 1; its a same one
-# print(a); 
-
-# a **= 1# a = a ** 1; its a same one
-# print(a); 
+#Arithmatic operators(+ - * / % **)
+a = 5
+b = 2
+print("a = ", a , "& b = ", b)
+print("a + b = ", a+b)
+print("a + b = ", a-b)
+print("a * b = ", a*b)
+print("a / b = ", a/b)
+print("a % b = ", a%b)
+print("a ** b = ", a ** b)
 
 
-# # comparison Operators
+# # unary operators(incremet and decremetn with post and pre)
+# a = a + 1
+# print(a)#6
 
-# # 1. equal to (==)
-# # 2. not equal to (!=)
-# # 3. equal to & type ===
-# # 4. not equal to & type !==
-# # 5. greater than >
-# # 6. less than <
-# # 7. greater than and equal to >=
-# # 8. less than and equal to <=
+# #print(a++)# the print value of a is 5 becuase its a post increment 
+# a = a - 1
+# print(a)#4
 
+# a = ++a
+# print(a)# the print value of a is 6 becuase its a pre increment
 
-# x = 5
-# y = 2
-# print("5 == 2", x == y)# output false
-# y = 5
-# print("5 == 5", x == y)# output true
-# print("5 != 5", not (x == y))# output false
+# #a = a--
+# print(a)# the print value of a is 5 becuase its a post degrement
 
-# z = "5"# string
-# print("5 == 5", x == z)# output false different from injavaScript(true)
-# print("5 == 5", x == z)# output false
-# # print("5 === 5", x === z)# output true
-# # print("5 !== 5", x !== z)# output false
-# y = 2
-# print("5 > 2", x > y)# output true
-# print("2 < 5", y < x)# output true
-# print("2 <= 5", y <= x)# output true
-# print("5 >= 2", x >= y)# output true
+# a = --a
+# print(a)# the print value of a is 4 becuase its a pre degrement
+
+# a = a * 1
+# print(a)# 5
+
+# a = a / 5
+# print(a)# 1
+
+# a = a % 2
+# print(a)#
 
 
-# # Logical Operators
-# print("2 < 5 , 5 > 2", y < x and x > y)# both condition should be true
-# print("2 > 5 , 5 > 2", y > x or x > y)# one condition should be true
-# print("2 < 5",  not(y > x))# this operator give me a opposite answer which is fase
+# Assingment Operators(= += -= *= %= **=)
+a += 1# a = a + 1; its a same one
+print(a)
+
+a -= 1# a = a - 1; its a same one
+print(a) 
+
+a *= 1# a = a * 1; its a same one
+print(a) 
+
+a /= 1# a = a / 1; its a same one
+print(a)
+
+a %= 1# a = a % 1; its a same one
+print(a); 
+
+a **= 1# a = a ** 1; its a same one
+print(a); 
 
 
-# # Type Conversion
-# # this type of convertion automatically exist in python language
-# a = 5
-# b = 5.5
-# sum = a + b
-# print(a+b)# the answer is in float which is by default
+# comparison Operators
 
-# # Typecasting
-# # this type of convertion occure with hard code means externally when we need
-# a = 2
-# b = int("4")
-# print(type(b))
-
-# sub = a - b
-# print(sub)
-
-# x = "hello"
-# y = str(2)
-
-# print(type(y))
-
-# print(x+y)
+# 1. equal to (==)
+# 2. not equal to (!=)
+# 3. equal to & type ===
+# 4. not equal to & type !==
+# 5. greater than >
+# 6. less than <
+# 7. greater than and equal to >=
+# 8. less than and equal to <=
 
 
-# # Inputs in Python
+x = 5
+y = 2
+print("5 == 2", x == y)# output false
+y = 5
+print("5 == 5", x == y)# output true
+print("5 != 5", not (x == y))# output false
 
-# name = input("Enter name : ") # its a by default Str
-# age = int(input("Enter your age : ")) # TypeCasting
-# marks = float(input("Enter your marks : ")) # TypeCasting
+z = "5"# string
+print("5 == 5", x == z)# output false different from injavaScript(true)
+print("5 == 5", x == z)# output false
+# print("5 === 5", x === z)# output true
+# print("5 !== 5", x !== z)# output false
+y = 2
+print("5 > 2", x > y)# output true
+print("2 < 5", y < x)# output true
+print("2 <= 5", y <= x)# output true
+print("5 >= 2", x >= y)# output true
 
-# print(type(name), name)
-# print(type(age), age)
-# print(type(marks), marks)
+
+# Logical Operators
+print("2 < 5 , 5 > 2", y < x and x > y)# both condition should be true
+print("2 > 5 , 5 > 2", y > x or x > y)# one condition should be true
+print("2 < 5",  not(y > x))# this operator give me a opposite answer which is fase
+
+
+# Type Conversion
+# this type of convertion automatically exist in python language
+a = 5
+b = 5.5
+sum = a + b
+print(a+b)# the answer is in float which is by default
+
+# Typecasting
+# this type of convertion occure with hard code means externally when we need
+a = 2
+b = int("4")
+print(type(b))
+
+sub = a - b
+print(sub)
+
+x = "hello"
+y = str(2)
+
+print(type(y))
+
+print(x+y)
+
+
+# Inputs in Python
+
+name = input("Enter name : ") # its a by default Str
+age = int(input("Enter your age : ")) # TypeCasting
+marks = float(input("Enter your marks : ")) # TypeCasting
+
+print(type(name), name)
+print(type(age), age)
+print(type(marks), marks)
 
 # Lets Practise some questions
 # Write a porgrame to input two numbers and print their sum.
+x = float(input("first number: "))
+y = float(input("second number: "))
 
-# # WAP to input side of a square & print its area.
-# side = float(input("Enter side of square: "))
-# print("Area of this square is: ", side * side)
-# print("Area of this square is: ", side ** 2)
+print("Sume = ", x + y)
 
-# # WAP input two floating point numbers & print thier average.
-# num1 = float(input("first number: "))
-# num2 = float(input("second number: "))
 
-# average = (num1 + num2) / 2
-# print("Average is: ", average)
+
+# WAP to input side of a square & print its area.
+side = float(input("Enter side of square: "))
+print("Area of this square is: ", side * side)
+print("Area of this square is: ", side ** 2)
+
+# WAP input two floating point numbers & print thier average.
+num1 = float(input("first number: "))
+num2 = float(input("second number: "))
+
+average = (num1 + num2) / 2
+print("Average is: ", average)
 
 # WAP to input two integers number, a and b.
 # print True if a is greater than or equal to b. If not print False.
 
 a = int(input("Enter the value of a : "))
 b = int(input("Enter the value of b : "))
+
+print(a>=b)
 
 if a>=b:
     print("True")
