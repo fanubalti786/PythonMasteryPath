@@ -51,9 +51,41 @@ print(str[4: ] , str[4: len(str)]) #both are sames
 
 
 # Negative indexing in only python
+#str[starting_idx: ending_idx] ending index is not included("Apple" = (-5,-4,-3,-2,-1)
+
 
 str = "Apple"
 print(str[-5: -1])
+
+# String Functions
+
+# 1. endswith
+str = "i am a coder"
+str.endswith("er") #returns true if string ends with substr / False
+print(str.endswith("er")) #True
+print(str.endswith("er.")) #False
+
+# 2. capidtalize
+str1 = str.capitalize() #Capitalize first character
+print(str) # its a old string which can't be change
+print(str1) # its a new which is capitalize
+
+
+# 3.Replace
+# str.replace("old", "new")
+print(str.replace("a", "also")) # replaces of all occurrances of old
+
+
+# 4 Fine Word
+print(str.find("coder")) # return first index of 1st occurrer
+print(str.find("q")) # show output is -1
+
+# 5 Count
+print(str.count("a"))
+
+
+
+
 
 
 
