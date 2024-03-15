@@ -83,6 +83,15 @@ print(str.find("q")) # show output is -1
 # 5 Count
 print(str.count("a"))
 
+# Lets Practise
+# WAP to input user's first name & print its length.
+
+
+
+# WAP to find the occurrance of '$' in a string
+Name = input("Enter your first name: ")
+print("length of your name is: ", len(Name))
+
 
 
 
