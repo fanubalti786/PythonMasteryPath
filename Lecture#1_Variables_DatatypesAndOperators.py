@@ -97,8 +97,6 @@ print(a);
 
 # 1. equal to (==)
 # 2. not equal to (!=)
-# 3. equal to & type ===
-# 4. not equal to & type !==
 # 5. greater than >
 # 6. less than <
 # 7. greater than and equal to >=
