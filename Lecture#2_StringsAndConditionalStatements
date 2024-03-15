@@ -85,13 +85,58 @@ print(str.count("a"))
 
 # Lets Practise
 # WAP to input user's first name & print its length.
-
-
-
-# WAP to find the occurrance of '$' in a string
 Name = input("Enter your first name: ")
 print("length of your name is: ", len(Name))
 
+# WAP to find the occurrance of '$' in a string
+dollar = "hi, $i am the $ symbol $99.99"
+print(dollar.count("$"))
+
+
+# Conditional Statements
+# if,elif,else(Syntax)
+# indentation space is very important in python its mean proper and perfect space it is used 
+# to replace {}
+
+light = "green"
+
+if(light=="red"):
+    print("stop") # indentation
+elif(light=="green"):
+    print("Go")
+elif(light=="yellow"):
+    print("Just Look")
+else:
+    print("light is broken")
+
+print("End programe")
+
+age = 2
+
+if(age>18):
+    print("Can vote")
+else:
+    print("cannot vote")
+
+# Grade student based on marks
+# marks = 78
+marks = int(input("Enter student marks: "))
+
+if(marks>=90):
+    grade = "A"
+elif(marks<90 and marks>=80):
+    grade = "B"
+elif(marks<80 and marks>=70):
+    grade = "C"
+else:
+    grade = "D"
+
+print("Grade of the student ->", grade)
+
+
+if(True):
+    i = "irfan"
+print(i) # we can use local variables which exist only condition statements as a global
 
 
 
