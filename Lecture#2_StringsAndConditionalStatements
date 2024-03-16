@@ -1,164 +1,164 @@
-# # Strings
-# # Strings are data types that stores a squance of characters.
+# Strings
+# Strings are data types that stores a squance of characters.
 
-# str1 = "this is a string"
-# str2 = 'this is also string'
-# str3 = '''this is also string'''
+str1 = "this is a string"
+str2 = 'this is also string'
+str3 = '''this is also string'''
 
-# print("python is awsome \nand good")
-# print(str1)
-# print(str2)
-# print(str3)
+print("python is awsome \nand good")
+print(str1)
+print(str2)
+print(str3)
 
-# # Basic operation
+# Basic operation
 
-# # Concatination
-# str = "hello" + "world"
-# print(str)
+# Concatination
+str = "hello" + "world"
+print(str)
 
-# str12 = str1 + str2
-# print(str12)
+str12 = str1 + str2
+print(str12)
 
-# #length of str
-# print(len(str1))
-# print(len(str2))
-# print(len(str3))
+#length of str
+print(len(str1))
+print(len(str2))
+print(len(str3))
 
-# # the empty space is also part of length
-# str12 = str1 + " " + str2
-# print(len(str12))
-
-
-
-# # Indexing 
-# # we just access all indexes but we can't manupulate them means this ch1 = "@"
-# str = "Apna Collage"
-# ch1 = str[1]
-# ch4 = str[4]
-# ch5 = str[5]
-# ch6 = str[6]
-# print(ch1,ch4,ch5,ch6)
-
-# # Slicing
-# # Accessing part of a string
-# #str[starting_idx: ending_idx] ending index is not included
-
-# str = "Apna Collage"
-# print(str[1:6])
-# print(str[0:4], str[ :4]) #both are sames
-# print(str[1: ] , str[1: len(str)]) #both are sames
-# print(str[4: ] , str[4: len(str)]) #both are sames
-
-
-# # Negative indexing in only python
-# #str[starting_idx: ending_idx] ending index is not included("Apple" = (-5,-4,-3,-2,-1)
-
-
-# str = "Apple"
-# print(str[-5: -1])
-
-# # String Functions
-
-# # 1. endswith
-# str = "i am a coder"
-# str.endswith("er") #returns true if string ends with substr / False
-# print(str.endswith("er")) #True
-# print(str.endswith("er.")) #False
-
-# # 2. capidtalize
-# str1 = str.capitalize() #Capitalize first character
-# print(str) # its a old string which can't be change
-# print(str1) # its a new which is capitalize
-
-
-# # 3.Replace
-# # str.replace("old", "new")
-# print(str.replace("a", "also")) # replaces of all occurrances of old
-
-
-# # 4 Fine Word
-# print(str.find("coder")) # return first index of 1st occurrer
-# print(str.find("q")) # show output is -1
-
-# # 5 Count
-# print(str.count("a"))
-
-# # Lets Practise
-# # WAP to input user's first name & print its length.
-# Name = input("Enter your first name: ")
-# print("length of your name is: ", len(Name))
-
-# # WAP to find the occurrance of '$' in a string
-# dollar = "hi, $i am the $ symbol $99.99"
-# print(dollar.count("$"))
-
-
-# # Conditional Statements
-# # if,elif,else(Syntax)
-# # indentation space is very important in python its mean proper and perfect space it is used 
-# # to replace {}
-
-# light = "green"
-
-# if(light=="red"):
-#     print("stop") # indentation
-# elif(light=="green"):
-#     print("Go")
-# elif(light=="yellow"):
-#     print("Just Look")
-# else:
-#     print("light is broken")
-
-# print("End programe")
-
-# age = 2
-
-# if(age>18):
-#     print("Can vote")
-# else:
-#     print("cannot vote")
-
-# # Grade student based on marks
-# # marks = 78
-# marks = int(input("Enter student marks: "))
-
-# if(marks>=90):
-#     grade = "A"
-# elif(marks<90 and marks>=80):
-#     grade = "B"
-# elif(marks<80 and marks>=70):
-#     grade = "C"
-# else:
-#     grade = "D"
-
-# print("Grade of the student ->", grade)
-
-
-# if(True):
-#     i = "irfan"
-# print(i) # we can use local variables which exist only condition statements as a global
-
-
-# # Nesting
-# age = 95
-# if(age>=18):
-#     if(age>=80):
-#         print("cannot drive")
-#     else:
-#         print("can drive")
-# else:
-#     print("cannot drive")
+# the empty space is also part of length
+str12 = str1 + " " + str2
+print(len(str12))
 
 
 
-# # Lets Practise
+# Indexing 
+# we just access all indexes but we can't manupulate them means this ch1 = "@"
+str = "Apna Collage"
+ch1 = str[1]
+ch4 = str[4]
+ch5 = str[5]
+ch6 = str[6]
+print(ch1,ch4,ch5,ch6)
+
+# Slicing
+# Accessing part of a string
+#str[starting_idx: ending_idx] ending index is not included
+
+str = "Apna Collage"
+print(str[1:6])
+print(str[0:4], str[ :4]) #both are sames
+print(str[1: ] , str[1: len(str)]) #both are sames
+print(str[4: ] , str[4: len(str)]) #both are sames
+
+
+# Negative indexing in only python
+#str[starting_idx: ending_idx] ending index is not included("Apple" = (-5,-4,-3,-2,-1)
+
+
+str = "Apple"
+print(str[-5: -1])
+
+# String Functions
+
+# 1. endswith
+str = "i am a coder"
+str.endswith("er") #returns true if string ends with substr / False
+print(str.endswith("er")) #True
+print(str.endswith("er.")) #False
+
+# 2. capidtalize
+str1 = str.capitalize() #Capitalize first character
+print(str) # its a old string which can't be change
+print(str1) # its a new which is capitalize
+
+
+# 3.Replace
+# str.replace("old", "new")
+print(str.replace("a", "also")) # replaces of all occurrances of old
+
+
+# 4 Fine Word
+print(str.find("coder")) # return first index of 1st occurrer
+print(str.find("q")) # show output is -1
+
+# 5 Count
+print(str.count("a"))
+
+# Lets Practise
+# WAP to input user's first name & print its length.
+Name = input("Enter your first name: ")
+print("length of your name is: ", len(Name))
+
+# WAP to find the occurrance of '$' in a string
+dollar = "hi, $i am the $ symbol $99.99"
+print(dollar.count("$"))
+
+
+# Conditional Statements
+# if,elif,else(Syntax)
+# indentation space is very important in python its mean proper and perfect space it is used 
+# to replace {}
+
+light = "green"
+
+if(light=="red"):
+    print("stop") # indentation
+elif(light=="green"):
+    print("Go")
+elif(light=="yellow"):
+    print("Just Look")
+else:
+    print("light is broken")
+
+print("End programe")
+
+age = 2
+
+if(age>18):
+    print("Can vote")
+else:
+    print("cannot vote")
+
+# Grade student based on marks
+# marks = 78
+marks = int(input("Enter student marks: "))
+
+if(marks>=90):
+    grade = "A"
+elif(marks<90 and marks>=80):
+    grade = "B"
+elif(marks<80 and marks>=70):
+    grade = "C"
+else:
+    grade = "D"
+
+print("Grade of the student ->", grade)
+
+
+if(True):
+    i = "irfan"
+print(i) # we can use local variables which exist only condition statements as a global
+
+
+# Nesting
+age = 95
+if(age>=18):
+    if(age>=80):
+        print("cannot drive")
+    else:
+        print("can drive")
+else:
+    print("cannot drive")
+
+
+
+# Lets Practise
     
-# # WAP to check if a number entered by the user is odd or even.
-# number = int(input("Enter your number: "))
-# if(number % 2 == 0):
-#     print("The number is even")
-# else:
-#     print("The number is odd")
+# WAP to check if a number entered by the user is odd or even.
+number = int(input("Enter your number: "))
+if(number % 2 == 0):
+    print("The number is even")
+else:
+    print("The number is odd")
 
 # WAP to find the greatest of 3 numbers entered by the user
 num1 = int(input("Enter your first number: "))
