@@ -78,8 +78,14 @@ print(str1)
 
 str2 = [1,3,7,1,5]
 print(str2.remove(1)) # output is none
-print(str2)
+print(str2) # first 1 element will remove in list
 
+
+
+# list.pop(idx)
+# remove element at idx
+str2.pop(3)
+print(str2)
 
 
 
