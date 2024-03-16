@@ -85,7 +85,7 @@ print(str2) # first 1 element will remove in list
 
 
 
-# list.pop(idx)
+# 7. list.pop(idx)
 # remove element at idx
 str2.pop(3)
 print(str2)
@@ -126,6 +126,25 @@ print(type(list1))
 # slicing in tupple
 tuple = [2,8,4,0,3]
 print(tuple[2:4])
+
+
+
+# Methods of Tupple
+# 8. tup.index(el) 
+# returns index of first occurence
+
+tup = (38,44,99,33,44)
+index = tup.index(44) # returns index of first occurence
+print(index)
+
+
+# 9. tup.count(el)
+# counts total occurence
+print(tup.count(44))
+
+
+
+
 
 
 
