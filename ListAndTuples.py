@@ -77,7 +77,8 @@ print(str1)
 # removes first occurrence of element
 
 str2 = [1,3,7,1,5]
-print(str2.remove(1))
+print(str2.remove(1)) # output is none
+print(str2)
 
 
 
