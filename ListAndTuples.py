@@ -88,5 +88,43 @@ str2.pop(3)
 print(str2)
 
 
+# Tuples in python
+# A built in data type that lets us create immutable sequences of values
+tup = (88,90,38,77,55)
+list = [84,28,77,99]
+
+print(type(tup))
+print(tup[0])
+print(tup[1])
+print(tup[2])
+
+#tup[0] = 50 # its a immutable like a string methadology
+print(tup)
+tuple = ()
+print(tuple)
+print(type(tuple))
+
+tupp = (1) # its not a tupple and python recive as a integer
+print(tupp, type(tupp)) # output is integer number
+
+tupp = (1,) # now its a tupple and python recive as a tupple
+print(tupp, type(tupp)) # output is tupple number with type of tupple
+
+
+# In List 
+list = [] # its also a tupple
+print(list)
+print(type(list))
+list1 = [1] # its also a tupple
+print(list1)
+print(type(list1))
+
+
+
+
+
+
+
+
 
 
