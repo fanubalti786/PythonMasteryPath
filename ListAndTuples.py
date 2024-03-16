@@ -144,10 +144,62 @@ print(tup.count(44))
 
 
 
+# Lets practise Questions
+# QNO 1: WAP to ask the user to enter names of their 3 
+# favorite movies and store them in a list.
+
+movies = []
+movies.append(input("First movie : "))
+movies.append(input("Second movie : "))
+movies.append(input("Third movie : "))
+
+print(movies)
+
+# QNO 2: WAP to check if a list contains a palindrom of elements. (Hint: use copy() method)
+# ANS :
+
+list1 = [1,2,1]
+list2 = [1,2,3]
+
+copy_list1 = list1.copy()
+copy_list1.reverse()
+
+if(list1 == copy_list1):
+    print("list is palindrom")
+else:
+    print("list is not palindrom")
+
+
+copy_list2 = list2.copy()
+copy_list2.reverse()
+
+if(list2 == copy_list2):
+    print("list is palindrom")
+else:
+    print("list is not palindrom")
 
 
 
 
+# QNO 3: WAP to count the number of students with the "A" grade in the following tuple?
+# ANS:
+
+grade = ("C","D","A","A","B","B","A",)
+print('Grade "A" students are : ',grade.count("A"))
+
+
+
+# QNO 4: Store the above values in a list & sort them from "A" to "D"?
+# ANS:
+
+list = ["C","D","A","A","B","B","A"]
+list.sort()
+print("List in ascending foram")
+print(list)
+
+list.sort(reverse=True)
+print("List in discending foram")
+print(list)
 
 
 
