@@ -31,11 +31,14 @@ print(str[1:5])
 print(str[:5])
 print(str[1:])
 print(str[:len(str)])
+print(str) # original can't be changed
 
 
 # negative indexing
 str = [38,"hello",38.5]
 print(str[-3:-1])
+
+
 
 
 
@@ -90,7 +93,7 @@ print(str2)
 
 # Tuples in python
 # A built in data type that lets us create immutable sequences of values
-tup = (88,90,38,77,55)
+tup = (88,90,38,77,55,) # in tupple we can create , in last but its a choice
 list = [84,28,77,99]
 
 print(type(tup))
@@ -119,6 +122,10 @@ list1 = [1] # its also a tupple
 print(list1)
 print(type(list1))
 
+
+# slicing in tupple
+tuple = [2,8,4,0,3]
+print(tuple[2:4])
 
 
 
